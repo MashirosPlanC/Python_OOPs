@@ -1,0 +1,26 @@
+class Cj:
+  pass
+
+class Cj_wife:
+  pass
+
+#Multiple Inheritance: inherit properties from more than one base class
+class Cj_child0(Cj, Cj_wife):
+  pass
+
+#single inheritance: inherit characteristics from a single-parent class
+class Cj_child1(Cj):
+  pass
+
+#Multilevel Inheritance: inherit properties from an immediate parent class which in turn inherits properties from his parent class
+class Cj_child1_child(Cj_child1):
+  pass
+
+#Hierarchical Inheritance: more than one derived class to inherit properties from a parent class
+
+class Cj_child1(Cj):
+  pass
+class Cj_child2(Cj):
+  pass
+
+
